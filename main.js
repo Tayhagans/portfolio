@@ -1,0 +1,59 @@
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBFqN6EdLa8TuLh1HfmFb4U05z8E6NUJ_M",
+    authDomain: "tayaltriceproject.firebaseapp.com",
+    databaseURL: "https://tayaltriceproject.firebaseio.com",
+    projectId: "tayaltriceproject",
+    storageBucket: "",
+    messagingSenderId: "602740506959"
+  };
+  firebase.initializeApp(config);
+
+  // Reference Messages Collection
+  var messagesRef = firebase.database().ref('messages');  
+
+// Listen for form submit 
+document.getElementById('contactForm').addEventListener('submit', submitForm);
+
+// Submit form
+function submitForm(e){
+    e.preventDefault(); 
+
+   // Get values
+   var name = getInputVal('name');
+   var email = getInputVal('email');
+   var subject = getInputVal('subject');
+   var comment = getInputVal('comment');
+
+ // Save message 
+   saveMessage(name, email, subject, comment);
+   
+// Show alert 
+document.querySelector('.alert').style.display = "block";
+
+//Hide alert after 3 seconds
+setTimeout(function(){
+    document.querySelector('.alert').style.display = "none";
+},3000);
+
+
+// Clear form 
+document.getElementById('contactForm').reset(); 
+}
+
+// Function to get form values
+function getInputVal(id){
+    return document.getElementById(id).value;
+}
+
+
+// Save message to firebase 
+function saveMessage(name, email, subject, comment){
+    var newMessageRef = messagesRef.push();
+    newMessageRef.set({
+        name:name,
+        email:email,
+        subject:subject,
+        comment:comment
+    }); 
+}

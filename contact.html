@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>Tay Hagans|Web Developer </title> 
+ <meta charset="utf-8">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+     <link rel="stylesheet" href="main.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1">    
+</head>
+
+<body>
+
+<div id="section1contact" class="container-fluid">
+    <h1 class="contp text-center">Contact Us</h1>
+    <div class="alert">Your message has been sent</div>
+    <h4 class="text-center conth4">Please fill out form below if you have any questions</h4>
+    <div class="row">
+        <div class="col-sm-4"></div>
+      
+      <div class="col-sm-4">
+            <form id="contactForm">
+                <div class="form-group">
+                  <label for="name">Name:</label>
+                  <input type="name" class="form-control" id="name" required placeholder="Name">
+                </div>
+                <div class="form-group">
+                  <label for="email">Email Address:</label>
+                  <input type="email" class="form-control" id="email" required placeholder="E-mail">
+                </div>
+                <div class="form-group">
+                  <label for="subject">Subject:</label>
+                  <input type="subject" class="form-control" id="subject" placeholder="subject">
+                </div>
+                <div class="form-group">
+                    <label for="comment">Message:</label>
+                    <textarea class="form-control" rows="5" id="comment"></textarea>
+                </div>    
+                
+                <button type="submit" class="btn btn-default btn-block form-submit">Submit</button>  
+                </form>    
+      </div>
+      <div class="col-sm-4"></div>
+    </div>
+  </div>
+  <script src="https://www.gstatic.com/firebasejs/4.9.1/firebase.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
