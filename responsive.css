@@ -29,15 +29,28 @@ and (orientation: portrait){
 
     /* Nav Bar */
 .navbar {
-    padding: 25px 50px 0 50px; 
+    padding: 25px 50px 0 50px;  
 
     /* opacity: 0.2;  */
     background: black!important; 
     
 }
 
-.navbar-brand {
+.navbar-nav a {
+    color: white!important; 
+}
+
+.navbar-nav a:hover {
+    color: yellow!important; 
+}
+
+.navbar-brand  {
+    color: white!important; 
     font-size: 25px;
+}
+
+.navbar-brand:hover {
+    color: yellow!important;   
 }
 
 
