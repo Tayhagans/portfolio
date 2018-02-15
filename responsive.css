@@ -33,6 +33,7 @@ and (orientation: portrait){
 
     /* opacity: 0.2;  */
     background: black!important; 
+    border-bottom: hidden; 
     
 }
 
