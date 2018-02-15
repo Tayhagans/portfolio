@@ -115,14 +115,14 @@ and (orientation: portrait){
     
 }
 
-.triangle {
+/* .triangle {
     width:0; 
     height: 0;
     border-left: 25px solid transparent; 
     border-right: 25px solid transparent; 
     border-top: 50px solid white; 
     margin-left: 510px; 
-}
+} */
 
 .view-portfolio:hover { 
     border: 4px solid yellow; 
@@ -145,6 +145,11 @@ and (orientation: portrait){
 
 .aboutp {
     padding-top: 20px; 
+}
+
+.vl {
+    border-left: 2px solid yellow;
+     height: 200px;
 }
 /* Section #3 */
 #section3 {

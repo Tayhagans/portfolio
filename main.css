@@ -1,7 +1,6 @@
 /* Nav Bar */
 .navbar {
     padding: 25px 50px 25px 50px; 
-
     opacity: 0.2; 
     background-color: black!important; 
     border-bottom: 1px solid yellow; 
@@ -49,7 +48,7 @@
 .quote {
     /* font-family: 'Great Vibes', cursive; */
     position: relative;
-    top: 10%;
+    top: 2%;
     left: 50%;
     transform: translate(-50%, -50%); 
     font-size: 15px;
@@ -105,6 +104,11 @@
 
 .section2-about{
     padding-bottom: 10px; 
+}
+
+.vl {
+    border-left: hidden;
+     height: hidden; 
 }
 
 /* Section #3 */
