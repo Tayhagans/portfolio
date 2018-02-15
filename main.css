@@ -2,10 +2,9 @@
 .navbar {
     padding: 25px 50px 25px 50px; 
 
-    /* opacity: 0.2;  */
+    opacity: 0.2; 
     background-color: black!important; 
     border-bottom: 1px solid yellow; 
-    
 }
 
 .navbar-brand {
@@ -16,10 +15,10 @@
 
 /* Section #1 */
 #section1 {
-    color: white; 
+    color: black; 
     padding-top: 130px; 
     padding-bottom: 15px; 
-    background: black; 
+    background: white; 
     /* background-image: none;  */ 
 /* background-image:url("http://i66.tinypic.com/2ue5pic.jpg");
     background-size: 100%;
@@ -99,9 +98,13 @@
 
 /* Section #2 */
 #section2 {
-    padding-top: 70px; 
+    padding-top: 30px; 
     padding-bottom: 70px; 
     background:white;
+}
+
+.section2-about{
+    padding-bottom: 10px; 
 }
 
 /* Section #3 */

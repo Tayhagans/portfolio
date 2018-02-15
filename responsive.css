@@ -31,14 +31,14 @@ and (orientation: portrait){
 .navbar {
     padding: 25px 50px 0 50px;  
 
-    /* opacity: 0.2;  */
-    background: black!important; 
+    opacity: 0.2; 
+    background: white!important; 
     border-bottom: hidden; 
     
 }
 
 .navbar-nav a {
-    color: white!important; 
+    color: black!important; 
 }
 
 .navbar-nav a:hover {
@@ -46,7 +46,7 @@ and (orientation: portrait){
 }
 
 .navbar-brand  {
-    color: white!important; 
+    color: black!important; 
     font-size: 25px;
 }
 
@@ -57,10 +57,10 @@ and (orientation: portrait){
 
 /* Section #1 */
 #section1 {
-    color: white; 
+    color: black; 
     padding-top: 130px; 
     padding-bottom: 100px; 
-    background: black; 
+    background: white; 
     /* background-image: none;  */ 
 /* background-image:url("http://i66.tinypic.com/2ue5pic.jpg");
     background-size: 100%;
@@ -73,6 +73,7 @@ and (orientation: portrait){
    left: 50%;
    transform: translate(-50%, -50%); 
    font-size: 28px;
+ 
    
   
    
@@ -137,11 +138,14 @@ and (orientation: portrait){
 
 /* Section #2 */
 #section2 {
-    padding-top: 70px; 
+    padding-top: 35px; 
     padding-bottom: 70px; 
     background:white;
 }
 
+.aboutp {
+    padding-top: 20px; 
+}
 /* Section #3 */
 #section3 {
     padding-top: 70px; 
