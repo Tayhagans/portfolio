@@ -1,9 +1,9 @@
-Nav Bar
+/* Nav Bar */
 .navbar {
     padding: 25px 50px 25px 50px; 
 
     /* opacity: 0.2;  */
-    background: black!important; 
+    background-color: black!important; 
     
 }
 
