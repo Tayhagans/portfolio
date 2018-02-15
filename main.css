@@ -15,7 +15,7 @@
 /* Section #1 */
 #section1 {
     color: black; 
-    padding-top: 130px; 
+    padding-top: 155px; 
     padding-bottom: 15px; 
     background: white; 
     /* background-image: none;  */ 
@@ -48,11 +48,14 @@
 .quote {
     /* font-family: 'Great Vibes', cursive; */
     position: relative;
-    top: 2%;
+    top: 6%;
     left: 50%;
     transform: translate(-50%, -50%); 
     font-size: 15px;
-    
+}
+
+.btn {
+    padding: 10px;  
 }
 
 .image-with-text {
