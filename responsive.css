@@ -151,7 +151,9 @@ border-top: 1px solid black;
 }
 
 .section2-about {
-    margin: 0; 
+    margin: 0;
+    font-family: 'Tangerine', cursive;
+    font-size: 50px;  
 }
 
 .aboutp {
@@ -169,12 +171,26 @@ border-top: 1px solid black;
     margin-right:15px;
 }
 
-/* .vl {
+ul {
+    text-align: center; 
+}
+
+.vertical { display: inline-block; 
     border-left: 2px solid yellow;
-     height: 200px;
-     margin-top: 95px;
-     margin-left: 90px;  
-} */
+     padding-left: 10px;
+     text-align: center; 
+     }
+.first { border-left: none; 
+    padding-left: 0; 
+}
+
+.section2-exper {
+    margin-bottom: 20px; 
+    font-family: 'Tangerine', cursive;
+    font-size: 50px; 
+}
+
+}
 /* Section #3 */
 #section3 {
     padding-top: 70px; 

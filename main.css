@@ -106,14 +106,15 @@
 }
 
 .section2-about{
-    padding-bottom: 10px; 
-    font-family: 'Great Vibes', cursive;
+    /* padding-bottom: 10px;  */
+    /* font-family: 'Dancing Script', cursive; */
+    font-family: 'Tangerine', cursive;
+    font-size: 40px; 
 }
 
 .vl {
     border-left: hidden;
      height: hidden;
-     margin-top: 35px;  
 }
 
 .aboutphoto {
@@ -122,6 +123,25 @@
     height:300px;
     margin-left:25px; 
     /*margin-right:15px; */
+} 
+
+.section2-exper {
+    margin-bottom: 20px; 
+    font-family: 'Tangerine', cursive;
+}
+
+ul {
+    text-align: center; 
+    display: block; 
+    padding: 0; 
+    padding-top: 10px; 
+}
+ 
+ li {
+    margin: 0px; 
+    text-align: center; 
+    display: block; 
+    padding-top: 10px; 
 } 
 
 /* Section #3 */
