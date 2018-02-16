@@ -59,8 +59,9 @@ and (orientation: portrait){
 #section1 {
     color: black; 
     padding-top: 130px; 
-    padding-bottom: 100px; 
+    padding-bottom: 0; 
     background: white; 
+    
     /* background-image: none;  */ 
 /* background-image:url("http://i66.tinypic.com/2ue5pic.jpg");
     background-size: 100%;
@@ -90,7 +91,7 @@ and (orientation: portrait){
 .quote {
     /* font-family: 'Great Vibes', cursive; */
     position: relative;
-    top: -12%;
+    top: -10%;
     left: 50%;
     transform: translate(-50%, -50%); 
     font-size: 20px;
@@ -138,9 +139,14 @@ and (orientation: portrait){
 
 /* Section #2 */
 #section2 {
-    padding-top: 35px; 
+    padding-top: 5px;  
     padding-bottom: 70px; 
     background:white;
+    
+}
+
+.section2-about {
+    margin: 0; 
 }
 
 .aboutp {
@@ -150,6 +156,7 @@ and (orientation: portrait){
 .vl {
     border-left: 2px solid yellow;
      height: 200px;
+     margin-top: 95px; 
 }
 /* Section #3 */
 #section3 {
