@@ -216,7 +216,7 @@ body {
 @media screen and (min-width: 1281px){
     .navbar-brand:hover {
         color: white!important;
-        background-color: yellow;    
+        background-color: yellow!important;    
     }
 
     .section2-about {
