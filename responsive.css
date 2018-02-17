@@ -193,14 +193,15 @@ ul {
 #section3 {
     padding-top: 70px; 
     padding-bottom: 70px;
-    background:black;  
+    background:white;  
 }
 
 body {
     position: relative;
 }
 
-/* Contact Form Alert  */
+
+/* Contact Form Alert 
 .alert{
     text-align: center; 
     padding: 10px; 
@@ -208,8 +209,10 @@ body {
     color: white;
     margin-bottom: 10px; 
     display: none; 
- } 
-}
+ }  */
+
+
+
 
 /*******************DESK TOP *******************************/
 
