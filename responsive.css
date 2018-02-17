@@ -41,10 +41,6 @@ and (orientation: portrait){
     color: black!important; 
 }
 
-.navbar-nav a:hover {
-    background-color: black!important;
-    color: white!important;  
-}
 
 .navbar-brand  {
     color: black!important; 

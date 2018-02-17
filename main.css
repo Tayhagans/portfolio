@@ -11,6 +11,11 @@
     padding-bottom: 10px; 
 }
 
+.navbar-nav a:hover {
+    background-color: black!important;
+    color: white!important;  
+}
+
 
 /* Section #1 */
 #section1 {
