@@ -219,15 +219,11 @@ body {
 /*******************DESK TOP *******************************/
 
 @media screen and (min-width: 1281px){
-    .navbar-brand:hover {
-        color: white!important;
-        background-color: yellow!important;    
-    }
-
+    
     .section2-about {
         margin: 0;
         font-family: 'Tangerine', cursive;
-        font-size: 70px;  
+        font-size: 50px;  
     }
     
     .aboutp {
@@ -245,9 +241,6 @@ body {
         margin-right:15px;
     }
 
-    #section3 {
-        background:blue;  
-    }
 
     
 }
