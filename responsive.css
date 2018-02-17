@@ -16,12 +16,12 @@ and (orientation: portrait){
     }
 }
 
-/************Breakpoint From Phone To Desktops ************************/
+/* ***********Breakpoint From Phone To Desktops ***********************
 
 @media screen and (min-width: 769px){
 
 
-}
+} */
 
 /*******************iMAC PRO LAPTOP *******************************/
 
