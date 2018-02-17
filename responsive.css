@@ -188,18 +188,20 @@ ul {
     font-size: 50px; 
 }
 
-}
+
 /* Section #3 */
 #section3 {
     padding-top: 70px; 
     padding-bottom: 70px;
-    background:white;  
+    background:black;  
 }
 
 body {
-    position: relative;
-}
+    position: relative; 
+    
+ }
 
+}
 
 /* Contact Form Alert 
 .alert{
@@ -244,7 +246,7 @@ body {
     }
 
     #section3 {
-        background:white;  
+        background:blue;  
     }
 
     
