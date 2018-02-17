@@ -229,4 +229,10 @@ body {
         margin-right:15px;
     }
 
+    .section2-about {
+        margin: 0;
+        font-family: 'Tangerine', cursive;
+        font-size: 70px;  
+    }
+
 }
