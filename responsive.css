@@ -221,9 +221,7 @@ body {
 @media screen and (min-width: 1281px){
     
     .section2-about {
-        margin: 0;
-        font-family: 'Tangerine', cursive;
-        font-size: 50px;  
+        font-size: 60px;  
     }
     
     .aboutp {
@@ -243,6 +241,8 @@ body {
         /* margin-right:15px; */
     }
 
-
+    .section2-exper {
+        font-size: 60px; 
+    }
     
 }
