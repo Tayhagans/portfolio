@@ -200,6 +200,7 @@ ul {
 .contact-head {
     margin-bottom: 10px; 
     font-size: 13px; 
+    padding-top: 20px; 
 }
 
 .whiteSpace {
@@ -212,7 +213,7 @@ ul {
 }
 
 .contact-info li a  {
-    color: gray;
+    color: black;
 }
 
 i {
