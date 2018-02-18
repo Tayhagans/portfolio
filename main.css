@@ -131,7 +131,7 @@
     } 
 
 .section2-exper {
-    margin-bottom: 20px; 
+    margin-bottom: 0; 
     font-family: 'Tangerine', cursive;
      
   
@@ -146,7 +146,7 @@ ul {
     text-align: center; 
     display: block; 
     padding: 0; 
-    padding-top: 10px; 
+    padding-top: 0; 
 }
  
  li {
@@ -155,6 +155,7 @@ ul {
     display: block; 
     padding-top: 10px; 
 } 
+
 
 
 .section2-services {
