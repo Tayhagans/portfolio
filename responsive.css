@@ -202,6 +202,10 @@ h6 {
     margin-bottom: 20px; 
     font-family: 'Tangerine', cursive;
     font-size: 40px; 
+    background-image: linear-gradient(to bottom,gray 33%, transparent 33%, transparent 66%,gray 66%,gray); 
+    background-position: 0 1.03em;
+    background-repeat: repeat-x;
+    background-size: 2px 4px;  
 }
 
 .service-hr {
@@ -211,13 +215,17 @@ h6 {
 .section2-services {
    font-size: 40px; 
    margin-top: 25px; 
+   background-image: linear-gradient(to bottom,gray 33%, transparent 33%, transparent 66%,gray 66%,gray); 
+    background-position: 0 1.03em;
+    background-repeat: repeat-x;
+    background-size: 2px 4px;
 }
 
 /* Section #3 */
 #section3 {
     padding-top: 70px; 
     padding-bottom: 70px;
-    background:black;  
+    background:white;   
 }
 
 body {

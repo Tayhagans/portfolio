@@ -106,7 +106,7 @@
 /* Section #2 */
 #section2 {
     padding-top: 0; 
-    padding-bottom: 70px; 
+    padding-bottom: 50px; 
     background:white;
 }
 
@@ -133,6 +133,8 @@
 .section2-exper {
     margin-bottom: 20px; 
     font-family: 'Tangerine', cursive;
+     
+  
 }
 
 .service-sec {
@@ -154,9 +156,12 @@ ul {
     padding-top: 10px; 
 } 
 
+
 .section2-services {
     font-family: 'Tangerine', cursive;
     padding-bottom: 15px; 
+    margin-bottom: 20px; 
+    
 }
 
 /* h6 {
@@ -176,13 +181,14 @@ ul {
 
 .servp {
     color: gray; 
+    padding-bottom: 5px; 
 }
 
 /* Section #3 */
 #section3 {
-    padding-top: 70px; 
+    padding-top: 50px; 
     padding-bottom: 70px;
-    background:black;  
+    background:white;  
 }
 
 body {
