@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="main.css">
   <link rel="stylesheet" href="responsive.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Great+Vibes|Tangerine" rel="stylesheet">
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
@@ -97,10 +98,59 @@
 
 <div id="section3" class="container-fluid">
   <div class="row">
-    <div class = "col-sm-4"><hr></div>
-      <div class = "col-sm-4"><h1 class="text-center section2-about">Contact Me</h1></div>
       <div class = "col-sm-4"><hr></div>
+      <div class = "col-sm-4"><h1 class="text-center section2-about">Contact Me</h1>
+        <div class="alert">Your message has been sent</div>
+      </div>
+      <div class = "col-sm-4"><hr></div>
+
+      <div class = "contact-form col-sm-4">
+        <div class="whiteSpace"></div>
+        <h6 class="text-center contact-head">General Information</h6>
+          <ul class="contact-info">
+              <li class="phone">
+                  <h8 class="contactInfo"><i class="fa fa-phone"></i>Phone:</h8>
+                <a href="tel:561-301-3986">561-301-3986</a>
+              </li>
+              <li class="mail">
+                  <h8 class="contactInfo"><i class="fa fa-envelope-o"></i>Email:</h8>
+                <a href="mailto:tayhagans@gmail.com">TayHagans@gmail.com</a>
+              </li>
+              <li class="twitter">
+                  <h8 class="contactInfo"><i class="fa fa-twitter"></i>Tweet Me:</h8>
+                <a href="http://twitter.com/intent/tweet?screen_name=tayhagans">@TayHagans</a>
+              </li>
+            </ul>
+            
+      </div>
+          <div class="col-sm-8">
+              <h6 class="text-center contact-head">Please feel free to contact me with any business inquiries or questions you may have.</h6>
+              <form id="contactForm">
+                  <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="name" class="form-control" id="name" required placeholder="Name">
+                  </div>
+                  <div class="form-group">
+                    <label for="email">Email Address:</label>
+                    <input type="email" class="form-control" id="email" required placeholder="E-mail">
+                  </div>
+                  <div class="form-group">
+                    <label for="subject">Subject:</label>
+                    <input type="subject" class="form-control" id="subject" placeholder="subject">
+                  </div>
+                  <div class="form-group">
+                      <label for="comment">Message:</label>
+                      <textarea class="form-control" rows="5" id="comment"></textarea>
+                  </div>    
+                  
+                  <button type="submit" class="btn btn-default btn-block form-submit">Submit</button>  
+                  </form>
+      </div>
+     
+
 </div>
 </div>
+<script src="https://www.gstatic.com/firebasejs/4.9.1/firebase.js"></script>
+<script src="main.js"></script>
 </body>
 </html>

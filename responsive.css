@@ -231,6 +231,38 @@ h6 {
     background:white;   
 }
 
+.contact-info li a  {
+    color: white;
+    margin-right: 20px; 
+}
+
+.contactInfo {
+    color: white; 
+}
+
+.contact-form {
+    background-color: lightgray;
+    /* opacity: 0.5;  */
+}
+
+.whiteSpace {
+    margin-bottom: 100px; 
+}
+
+.contact-head {
+    font-size: 15px; 
+   /* margin-top: 40px; 
+   /* padding-bottom: 40px;  */
+}
+
+i {
+    margin: 20px; 
+    margin-right: 10px;
+    color: white; 
+}
+
+
+
 body {
     position: relative; 
     
