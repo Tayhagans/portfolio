@@ -158,7 +158,8 @@ border-top: 1px solid black;
     /* padding:0;
     margin: 0;  */
     margin-right: 85px;
-    padding-right: 29px;  
+    padding-right: 29px; 
+    color: gray;  
 } 
 
 .aboutphoto {
@@ -182,12 +183,35 @@ ul {
     padding-left: 0; 
 }
 
-.section2-exper {
-    margin-bottom: 20px; 
-    font-family: 'Tangerine', cursive;
-    font-size: 50px; 
+.service-sec {
+    display: table; 
+    margin: 0 auto; 
 }
 
+h6 {
+    text-align: center; 
+}
+
+/* .ephoto {
+    margin-right: 55px; 
+} */
+
+
+.section2-exper {
+    margin-top: 25px; 
+    margin-bottom: 20px; 
+    font-family: 'Tangerine', cursive;
+    font-size: 40px; 
+}
+
+.service-hr {
+    margin-top: 40px; 
+}
+
+.section2-services {
+   font-size: 40px; 
+   margin-top: 25px; 
+}
 
 /* Section #3 */
 #section3 {
