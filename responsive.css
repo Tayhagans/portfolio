@@ -47,10 +47,6 @@ and (orientation: portrait){
     font-size: 25px;
 }
 
-.navbar-brand:hover {
-    color: white!important;
-    background-color: black!important;    
-}
 
 
 /* Section #1 */
