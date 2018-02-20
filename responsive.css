@@ -283,6 +283,14 @@ body {
 
 @media screen and (min-width: 1281px){
     
+    .view-portfolio {
+        margin-top: 25px; 
+        background-color:grey;
+        padding: 15px 32px;
+        font: bold; 
+        color: white;    
+    }
+    
     .section2-about {
         font-size: 60px;  
     }
