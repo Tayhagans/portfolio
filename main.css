@@ -252,3 +252,16 @@ body {
     margin-bottom: 10px; 
     display: none; 
 } 
+
+.panel-footer {
+   background-color: black; 
+   color: white; 
+}
+
+.copyw {
+    font-size: 13px; 
+}
+
+.yello {
+    color: yellow; 
+}
