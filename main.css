@@ -160,6 +160,20 @@ ul {
     padding-top: 10px; 
 } 
 
+img {
+    max-width: 100%;
+  }
+  
+  /* no-gutters Class Rules */
+  .row.no-gutters {
+     margin-right: 0;
+     margin-left: 0;
+  }
+  .row.no-gutters > [class^="col-"],
+  .row.no-gutters > [class*=" col-"] {
+     padding-right: 0;
+     padding-left: 0;
+  }
 
 
 .section2-services {
@@ -256,6 +270,8 @@ body {
 .panel-footer {
    background-color: black; 
    color: white; 
+   opacity: 0.6;
+   margin-top: 15px; 
 }
 
 .copyw {
@@ -269,3 +285,4 @@ body {
 .foot1 {
     color: white; 
 }
+
