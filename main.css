@@ -162,19 +162,21 @@ ul {
 
 img {
     max-width: 100%;
+    
   }
   
   /* no-gutters Class Rules */
   .row.no-gutters {
-     margin-right: 0;
-     margin-left: 0;
+      margin-right: 0;
+     margin-left: 0; 
+      margin: 0 auto;
+     
   }
-  .row.no-gutters > [class^="col-"],
+   .row.no-gutters > [class^="col-"],
   .row.no-gutters > [class*=" col-"] {
      padding-right: 0;
      padding-left: 0;
-  }
-
+  } 
 
 .section2-services {
     font-family: 'Tangerine', cursive;
