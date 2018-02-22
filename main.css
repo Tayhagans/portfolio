@@ -165,6 +165,18 @@ img {
     
   }
   
+  .portphoto {
+    filter: gray; 
+    -webkit-filter: grayscale(1);
+    -webkit-transition: all .8s ease-in-out; 
+  }
+
+  .portphoto:hover {
+      filter: none; 
+      -webkit-filter: grayscale(0); 
+      -webkit-transform: scale(1.01); 
+  }
+  
   /* no-gutters Class Rules */
   .row.no-gutters {
       margin-right: 0;
