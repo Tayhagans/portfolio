@@ -220,6 +220,46 @@ h6 {
     background-size: 2px 4px;
 }
 
+.portphoto {
+    filter: gray; 
+    -webkit-filter: grayscale(1);
+    -webkit-transition: all .8s ease-in-out;
+    margin-bottom: 0;  
+  }
+/* 
+  .portphoto:hover {
+      filter: none; 
+      -webkit-filter: grayscale(0); 
+      -webkit-transform: scale(1.01); 
+  } */
+
+  .middle {
+      transition: .5s ease; 
+      opacity: 0;
+      position: absolute; 
+      top: 50%; 
+      left: 50%; 
+      transform: translate(-50%, -50%); 
+      -ms-transform: translate(-50%, -50%); 
+      text-align: center; 
+  }
+
+.kitten-box:hover .portphoto {
+    filter: none; 
+    -webkit-filter: grayscale(0); 
+    -webkit-transform: scale(1.01); 
+}
+
+.kitten-box .middle {
+    opacity: 0;
+    
+} 
+
+  .kitten-box:hover .middle {
+      opacity: 1;
+      
+  } 
+
 
 /* Section #3 */
 #section3 {

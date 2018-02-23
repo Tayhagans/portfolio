@@ -166,9 +166,7 @@ img {
   }
 
   .portphoto {
-    filter: gray; 
-    -webkit-filter: grayscale(1);
-    -webkit-transition: all .8s ease-in-out; 
+    margin-bottom: 7px; 
   }
 /* 
   .portphoto:hover {
@@ -188,13 +186,13 @@ img {
       text-align: center; 
   }
 
-.kitten-box:hover .portphoto {
+/* .kitten-box:hover .portphoto {
     filter: none; 
     -webkit-filter: grayscale(0); 
     -webkit-transform: scale(1.01); 
-}
+} */
 
-  .kitten-box:hover .middle {
+  .kitten-box .middle {
       opacity: 1;
       
   } 
@@ -207,17 +205,17 @@ img {
   }
 
   /* no-gutters Class Rules */
-  .row.no-gutters {
+  /* .row.no-gutters {
       margin-right: 0;
      margin-left: 0; 
       margin: 0 auto;
      
-  }
-   .row.no-gutters > [class^="col-"],
+  } */
+   /* .row.no-gutters > [class^="col-"],
   .row.no-gutters > [class*=" col-"] {
      padding-right: 0;
      padding-left: 0;
-  } 
+  }  */
 
 .section2-services {
     font-family: 'Tangerine', cursive;
