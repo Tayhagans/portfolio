@@ -17,6 +17,7 @@
 }
 
 
+
 /* Section #1 */
 #section1 {
     color: black; 
@@ -165,8 +166,16 @@ img {
     
   }
 
+  .portfoliopic {
+      width: 312.5px; 
+      height: 234.38px;
+     
+  }
+
   .portphoto {
     margin-bottom: 7px; 
+    height: 200px;
+    width: 100%;  
   }
 /* 
   .portphoto:hover {
@@ -200,8 +209,11 @@ img {
   .view-project {
       padding: 14px 40px; 
       /* background-color: white;  */
+      background-color: #000; 
       border: 2px solid #000;
-      color: white;  
+      color: #FFF;
+      font-weight: bolder;  
+      opacity: .6; 
   }
 
   /* no-gutters Class Rules */
