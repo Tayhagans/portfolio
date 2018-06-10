@@ -302,16 +302,27 @@ h6 {
 }
 
 .contact-info li a  {
-    color: white;
+    color: black;
     margin-right: 20px; 
 }
+  .contact-info li a:hover {
+/*     background-color: black;  */
+    color: yellow; 
+/*     padding:10px;  */
+   
+    font-weight: bolder; 
+  }
 
+  .contact-info li i {
+    color: yellow; 
+  }
 .contactInfo {
-    color: white; 
+    color: black; 
 }
 
 .contact-form {
     background-color: lightgray;
+  
     /* opacity: 0.5;  */
 }
 
@@ -351,6 +362,10 @@ body {
     color: white; 
     padding-top: 60px; 
 }
+  
+  .foot1:hover {
+    color: yellow; 
+  }
 
 
 }
