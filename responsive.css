@@ -302,7 +302,8 @@ h6 {
 }
 
 .contact-info li a  {
-    color: black;
+    color: white;
+  font-weight: bolder;
     margin-right: 20px; 
 }
   .contact-info li a:hover {
@@ -317,7 +318,8 @@ h6 {
     color: yellow; 
   }
 .contactInfo {
-    color: black; 
+    color: white;
+  font-weight: bolder; 
 }
 
 .contact-form {
