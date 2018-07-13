@@ -268,7 +268,8 @@ img {
 /* Section #3 */
 #section3 {
     padding-top: 50px; 
-    padding-bottom: 70px;
+/*     padding-bottom: 70px; */
+  padding-bottom:0; 
     background:white;  
 }
 

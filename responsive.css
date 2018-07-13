@@ -258,6 +258,12 @@ h6 {
     -webkit-transition: all .8s ease-in-out;
     margin-bottom: 0;  
   }
+  
+  .p-photo1 {
+    height:300px; 
+    width:700px; 
+    text-align:center; 
+  }
 /* 
   .portphoto:hover {
       filter: none; 
