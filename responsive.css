@@ -83,7 +83,7 @@ and (orientation: portrait){
 /* Section #1 */
 #section1 {
     color: black; 
-    padding-top: 130px; 
+    padding-top: 90px; 
     padding-bottom: 0; 
     background: white; 
     
@@ -395,6 +395,12 @@ body {
 
 @media screen and (min-width: 1281px){
     
+  #section1 {
+ 
+    padding-top: 130px; 
+   }
+  
+  
     .view-portfolio {
         margin-top: 25px; 
         background-color:grey;
