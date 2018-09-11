@@ -1,7 +1,40 @@
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape){
+    .vertical {
+        display: inline-block;
+        border-left: 2px solid yellow;
+        margin-top: 20px; 
+        padding-left: 10px;  
+    }
+
+    .first { border-left: none; 
+    padding-left: 0; 
+}
+
+.aboutp {
+    font-size: 13px; 
+}
+
+hr {
+    border-top: 1px solid #000; 
+}
+
+.ephoto {
+    width:50px; 
+    height: 50px;
+}
+
+.servp {
+    font-size: 13px; 
+}
+
+}
+
+
+
 /************iphone 7 and 8 plus ************************/
 
-@media only screen 
-and (min-width: 414px)
+
+@media only screen and (min-width: 414px)
 and (max-width: 736px)
 and (-webkit-min-device-pixel-ratio: 3)
 and (orientation: portrait){
@@ -334,6 +367,12 @@ h6 {
     /* opacity: 0.5;  */
 }
 
+ .form-submit {
+    border: none;
+    color: #fff; 
+
+}
+
 .whiteSpace {
     margin-bottom: 100px; 
 }
@@ -357,18 +396,23 @@ body {
     
  }
 
+ /**SECTION 4*/
+#section4 {
+ background-image: url("lauren-mancke-96705-unsplash.jpg");
+}
+
 /*************Footer**********/
 
 .panel-footer {
-    background-color: gray; 
-    color: white; 
-    opacity: 0.7;
+    /*background-color: gray; 
+    color: white; */
+    /*opacity: 0.7;*/
     margin-top: 15px; 
-    height:300px; 
+    height:auto; 
  }
  .foot1 {
-    color: white; 
-    padding-top: 60px; 
+    
+    padding-top: 10px; 
 }
   
   .foot1:hover {

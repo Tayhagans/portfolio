@@ -22,11 +22,11 @@ function submitForm(e){
    // Get values
    var name = getInputVal('name');
    var email = getInputVal('email');
-   var subject = getInputVal('subject');
+   // var subject = getInputVal('subject');
    var comment = getInputVal('comment');
 
  // Save message 
-   saveMessage(name, email, subject, comment);
+   saveMessage(name, email, comment);
    
 // Show alert 
 document.querySelector('.alert').style.display = "block";
@@ -48,13 +48,12 @@ function getInputVal(id){
 
 
 // Save message to firebase 
-function saveMessage(name, email, subject, comment){
+function saveMessage(name, email, comment){
     var newMessageRef = messagesRef.push();
     newMessageRef.set({
         name:name,
         email:email,
-        subject:subject,
-        comment:comment
+        comment:comment, 
     }); 
 }
 
