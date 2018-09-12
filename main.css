@@ -350,7 +350,7 @@ li a {
   /*background-image: url("lauren-mancke-96705-unsplash.jpg");*/
   background-size: cover; 
   background-repeat: no-repeat;
-  opacity: 0.5; 
+  opacity: 0.9; 
   filter: grayscale(70%);
 }
 
