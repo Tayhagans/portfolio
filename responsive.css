@@ -12,7 +12,7 @@
 
 .aboutp {
     font-size: 13px;
-    
+
 }
 
 hr {
@@ -103,7 +103,9 @@ and (orientation: portrait){
 }
 
 .navbar-nav a {
-    color: black!important; 
+    color: black!important;
+    font-weight: bolder;
+    font-size: 14px;  
 }
 
 
