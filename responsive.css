@@ -134,7 +134,8 @@ and (orientation: portrait){
    top: -70%;
    left: 50%;
    transform: translate(-50%, -50%); 
-   font-size: 28px;
+   font-size: 30px;
+
  
    
   
@@ -213,11 +214,12 @@ border-top: 1px solid black;
 
 .section2-about {
     margin: 0;
-    font-family: 'Tangerine', cursive;
-    font-size: 50px;  
+    /*font-family: 'Tangerine', cursive;*/
+    font-size: 40px;  
 }
 
 .aboutp {
+    text-align: left!important; 
     /* padding:0;
     margin: 0;  */
     margin-right: 85px;
@@ -267,8 +269,8 @@ h6 {
 .section2-exper {
     margin-top: 25px; 
     margin-bottom: 20px; 
-    font-family: 'Tangerine', cursive;
-    font-size: 40px; 
+    
+    font-size: 25px; 
     background-image: linear-gradient(to bottom,gray 33%, transparent 33%, transparent 66%,gray 66%,gray); 
     background-position: 0 1.03em;
     background-repeat: repeat-x;
@@ -280,7 +282,7 @@ h6 {
 }
 
 .section2-services {
-   font-size: 40px; 
+   font-size: 25px; 
    margin-top: 25px; 
    background-image: linear-gradient(to bottom,gray 33%, transparent 33%, transparent 66%,gray 66%,gray); 
     background-position: 0 1.03em;
@@ -415,12 +417,17 @@ body {
  }
  .foot1 {
     
-    padding-top: 10px; 
+ /*   padding-top: 10px; */
 }
   
   .foot1:hover {
     color: yellow; 
   }
+
+  .taylor {
+  width: 40px; 
+  height: 40px; 
+}
 
 
 }

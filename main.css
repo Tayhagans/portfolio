@@ -17,6 +17,8 @@
 }
 
 
+
+
 /* Section #1 */
 #section1 {
     color: black; 
@@ -35,6 +37,7 @@
    left: 50%;
    transform: translate(-50%, -50%); 
    font-size: 20px;
+   font-family: "Times New Roman", cursive; 
    
    
    
@@ -122,8 +125,8 @@
 .section2-about{
     /* padding-bottom: 10px;  */
     /* font-family: 'Dancing Script', cursive; */
-    font-family: 'Tangerine', cursive;
-    font-size: 40px; 
+    font-family: "Times New Roman", cursive;
+    font-size: 30px; 
 }
 
 .vl {
@@ -146,7 +149,8 @@
 
 .section2-exper {
     margin-bottom: 0; 
-    font-family: 'Tangerine', cursive;
+    font-family: "Times New Roman" , cursive;
+
      
   
 }
@@ -188,7 +192,8 @@ img {
   }
 
   .aboutp {
-    text-align: left!important; 
+
+    /*text-align: left!important; */
   }
 /* 
   .portphoto:hover {
@@ -269,7 +274,7 @@ img {
   }  */
 
 .section2-services {
-    font-family: 'Tangerine', cursive;
+    font-family: 'Times New Roman', cursive;
     margin-top: 25px; 
     padding-bottom: 15px; 
     margin-bottom: 20px; 
@@ -416,6 +421,12 @@ body {
     color: #000; 
     
 }
+
+.taylor {
+  width: 30px; 
+  height: 30px; 
+}
+
 caption {
   color: black!important;
   padding: 10px; 
