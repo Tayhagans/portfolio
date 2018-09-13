@@ -334,7 +334,8 @@ i {
 }
 
 li a {
-    font-size: 13px; 
+    font-size: 15px; 
+    font-weight: bolder;
 }
 
 .contact-form {
