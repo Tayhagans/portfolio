@@ -1,21 +1,88 @@
 /* Nav Bar */
 .navbar {
     padding: 25px 50px 25px 50px; 
-    opacity: 0.2; 
-    background-color: black!important; 
+   
+    
     border-bottom: 1px solid yellow; 
 }
 
+
+
+/*NAV*/
+
+.about1 {
+    color: #ff0080!important; 
+}
+
+  .jumbotron {
+/*     background-image: url("http://i64.tinypic.com/v2wcoh.jpg"); */
+        /*background-image: url("http://i66.tinypic.com/2pr9v2f.jpg");*/
+            
+ background-image: url("headerpic.jpg");
+/*     background-image: url("http://i68.tinypic.com/1255nwk.jpg"); */
+     /*-webkit-filter: grayscale(65%);  Safari 6.0 - 9.0 
+    filter: grayscale(65%);*/
+/*       background-color: #f4511e; */
+   
+    background-repeat: no-repeat; 
+   background-size: contain; 
+   padding-top:0; 
+    padding-bottom:0; 
+    margin-bottom:0; 
+background-color: #fff;
+      color: #fff;
+      /*padding: 100px 25px;*/
+      font-family: Montserrat, sans-serif!important;
+  }
+.jumbotron h1 {
+  margin-top: 260px; 
+  color: #000;
+  font-size:14px; 
+}
+
+.jumbotron h3 {
+  color:#000;
+  
+}
+
+
+.navbar {
+      margin-bottom: 0;
+      background-color: transparent;
+      z-index: 9999;
+      border: 0;
+      font-size: 12px !important;
+      line-height: 1.42857143 !important;
+      letter-spacing: 4px;
+      border-radius: 0;
+      font-family: Montserrat, sans-serif;
+      padding: 2px 8px; 
+
+/*      background-image: url("http://i64.tinypic.com/v2wcoh.jpg"); */
+    /* background-image: url("photo11.jpg");*/
+  
+/*   background-image: url("http://i68.tinypic.com/1255nwk.jpg"); */
+    background-repeat:no-repeat; 
+    background-size:cover; 
+    -webkit-filter: grayscale(65%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(65%);
+  }
+  
+  .navbar li a{
+   
+    background-color: transparent;  
+  }
+
 .navbar-brand {
-    font-size: 25px;
-    padding-bottom: 10px; 
+    font-size: 17px;
+    padding-bottom: 10px;
+    color: #000;  
 }
 
 .navbar-nav a:hover {
     background-color: black!important;
     color: white!important;  
 }
-
 
 
 
@@ -32,25 +99,21 @@
 }
 
 .about-head {
-   position: relative;
+   /*position: relative;
    top: -60%;
    left: 50%;
-   transform: translate(-50%, -50%); 
+   transform: translate(-50%, -50%); */
    font-size: 20px;
    font-family: "Times New Roman", cursive; 
-   
+   letter-spacing: 8px; 
+   }
    
    
   
    
-    /* ;
-    padding-bottom: 0;
-    margin-bottom: 0; 
-    margin-top: 0;    */
-}
 
 .about1 {
-    color: yellow; 
+    color: #000; 
 }
 
 .quote {
@@ -62,9 +125,18 @@
     font-size: 15px;
 }
 
-.btn {
-    padding: 10px;  
+.btn-a {
+  opacity:.4; 
+   background-color:#000;  
+ padding: 10px;
+color: #fff; 
+margin-top: 15px; 
+  
+ 
+} 
    
+.btn-c {
+  opacity: 1; 
 }
 
 .middle a {
