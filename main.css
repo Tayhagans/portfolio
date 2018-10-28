@@ -1,3 +1,5 @@
+
+
 /* Nav Bar */
 .navbar {
     padding: 25px 50px 25px 50px; 
@@ -80,8 +82,8 @@ background-color: #fff;
 }
 
 .navbar-nav a:hover {
-    background-color: black!important;
-    color: white!important;  
+   
+    color: #ff0080!important;  
 }
 
 
@@ -197,6 +199,7 @@ margin-top: 15px;
 .section2-about{
     /* padding-bottom: 10px;  */
     /* font-family: 'Dancing Script', cursive; */
+    color: #ff0080; 
     font-family: "Times New Roman", cursive;
     font-size: 30px; 
 }
@@ -429,7 +432,7 @@ li a {
   background-size: cover; 
   background-repeat: no-repeat;
   opacity: 0.9; 
-  filter: grayscale(70%);
+ /* filter: grayscale(70%);*/
 }
 
 .form-submit {

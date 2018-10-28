@@ -126,7 +126,7 @@ and (orientation: portrait)
 .navbar-brand  {
     color: black!important; 
     font-size: 25px;
-    font-weight: lighter;
+    font-weight: lighter!important;
 }
 
 /*NAV*/
@@ -192,13 +192,13 @@ and (orientation: portrait)
       color: #000 !important;
       font-weight: lighter;
   }
-  .navbar-nav li a:hover {
+/*  .navbar-nav li a:hover {
       color: #000 !important;
-      background-color: #fff !important;
+     
   }
-
+*/
 .navbar-nav li.active a {
-  color: #00d3c7!important; 
+  color: #ff0080!important; 
    background-color: #fff !important;
 }
 
