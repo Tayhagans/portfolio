@@ -199,7 +199,7 @@ margin-top: 15px;
 .section2-about{
     /* padding-bottom: 10px;  */
     /* font-family: 'Dancing Script', cursive; */
-    color: #ff0080; 
+    /*color: #ff0080; */
     font-family: "Times New Roman", cursive;
     font-size: 30px; 
 }
@@ -264,6 +264,10 @@ img {
     margin-bottom: 7px; 
     height: 200px;
     width: 100%;  
+  }
+
+  .my-pt {
+    color: #ff0080; 
   }
 
   .aboutp {
