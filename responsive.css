@@ -1,4 +1,4 @@
-/* ----------- Galaxy S4, S5 and Note 3 ----------- */
+ /* ----------- Galaxy S4, S5 and Note 3 ----------- */
 
 @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
 
@@ -541,6 +541,10 @@ body {
 /*******************DESK TOP *******************************/
 
 @media screen and (min-width: 1281px){
+
+  .btn-a {
+    display: none; 
+  }
     
   #section1 {
  
@@ -581,5 +585,9 @@ body {
             
  background-image: url("headerpic.jpg");
     }
+
+    .form-submit {
+
+color: #000!important; 
     
 }
