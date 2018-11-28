@@ -1,4 +1,4 @@
- /* ----------- Galaxy S4, S5 and Note 3 ----------- */
+/* ----------- Galaxy S4, S5 and Note 3 ----------- */
 
 @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
 
@@ -12,7 +12,7 @@
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape){
     .vertical {
         display: inline-block;
-        border-left: 2px solid yellow;
+      /*  border-left: 2px solid yellow;*/
         margin-top: 20px; 
         padding-left: 10px;  
     }
@@ -26,14 +26,18 @@
 
 }
 
+.ser-divv {
+  padding: 0; 
+}
+
 hr {
     border-top: 1px solid #000; 
 }
 
-.ephoto {
+/*.ephoto {
     width:50px; 
     height: 50px;
-}
+}*/
 
 .servp {
     font-size: 13px; 
@@ -42,7 +46,320 @@ hr {
 }
 
 
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
 
+
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .jumbotron {
+      background-size: cover; 
+    }
+
+    .jumbotron h1 {
+      margin-top: 350px; 
+    }
+
+    .aboutphoto {
+      float: left; 
+      width: 200px; 
+      height: 200px; 
+        margin-right: 10px; 
+    }
+
+    .section2-exper {
+      font-size: 25px; 
+    }
+
+    .centered {
+      top: 20%; 
+    }
+
+    .vertical.first {
+      border-left: 2px solid transparent;
+
+    }
+
+    .vertical {
+
+     border-left: 2px solid #ff0080;
+     display: inline-block;
+     padding: 5px; 
+   }
+
+   .servp {
+    height: 90px; 
+    overflow: scroll;
+   }
+
+   .aboutp {
+    text-align: left; 
+   }
+
+           #section4 {
+ background-image: url("lauren-mancke-96705-unsplash.jpg");
+ margin-top: 50px; 
+
+ }
+
+ .form-submit {
+  color: #fff; 
+  border:none;
+ }
+
+  }
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+     .jumbotron {
+      background-size: cover; 
+    }
+
+    .jumbotron h1 {
+      margin-top: 350px; 
+    }
+
+    .aboutphoto {
+      float: left; 
+      width: 200px; 
+      height: 200px; 
+        margin-right: 10px; 
+    }
+
+    .section2-exper {
+      font-size: 25px; 
+      margin-bottom: 20px; 
+    }
+
+    .centered {
+      top: 20%; 
+    }
+
+
+   .servp {
+    height: 90px; 
+    overflow: scroll;
+   }
+
+   .aboutp {
+    text-align: left; 
+   }
+
+   .vertical.first {
+      border-left: 2px solid transparent;
+
+    }
+
+    .vertical {
+
+     border-left: 2px solid #ff0080;
+     display: inline-block;
+     padding: 5px; 
+   }
+
+           #section4 {
+ background-image: url("lauren-mancke-96705-unsplash.jpg");
+ margin-top: 50px; 
+
+ }
+
+ .form-submit {
+  color: #fff; 
+  border:none;
+ }
+
+
+}
+
+/* ----------- iPhone X ----------- */
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+.jumbotron {
+      background-size: contain!important; 
+    }
+
+    .jumbotron h1 {
+      margin-top: 440px!important; 
+    }
+
+    .aboutphoto {
+      float: left; 
+      width: 200px; 
+      height: 200px; 
+    }
+
+    .section2-exper {
+      font-size: 25px; 
+    }
+
+    .centered {
+      top: 20%; 
+    }
+
+
+   .servp {
+    height: 90px; 
+    overflow: scroll;
+   }
+
+   .aboutp {
+    text-align: left; 
+    font-size: 15px; 
+   }
+
+ .centered {
+      top: 30%; 
+    }   
+
+  }
+
+  /* ----------- iPad 1, 2, Mini and Air ----------- */
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+.jumbotron {
+      background-size: cover; 
+    }
+
+.jumbotron h1 {
+  margin-top: 420px; 
+  font-size: 24px; 
+}
+
+.section2-about {
+  margin-top: 20px; 
+}
+
+    .aboutphoto {
+      float: left; 
+      width: 200px; 
+      height: 200px; 
+      margin-right: 10px; 
+    }
+.aboutp {
+  text-align: left; 
+}
+
+.ab-row {
+  margin-right: 50px; 
+  margin-left: 50px; 
+}
+
+.centered {
+      top: 20%; 
+    }
+
+     .vertical.first {
+      border-left: 2px solid transparent;
+    }
+
+    .vertical {
+ padding: 5px;  
+     border-left: 2px solid #ff0080;
+     display: inline-block;
+    font-size: 25px; 
+   }
+
+   .section2-exper {
+    margin-bottom: 20px; 
+   }
+
+.servp {
+  height: 140px; 
+  overflow: scroll;
+}
+
+.my-pt {
+  margin-top: 50px; 
+}
+
+  }
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+.jumbotron {
+      background-size: cover; 
+    }
+
+    .jumbotron h1 {
+      margin-top: 560px; 
+      font-size: 25px; 
+    }
+
+     .aboutphoto {
+      float: left; 
+      width: 200px; 
+      height: 200px; 
+      margin-right: 10px; 
+    }
+
+    .ab-row {
+      margin-left: 100px; 
+      margin-right: 100px; 
+    }
+
+     .vertical.first {
+      border-left: 2px solid transparent;
+    }
+
+    .vertical {
+
+     border-left: 2px solid #ff0080;
+     display: inline-block;
+    font-size: 20px;
+    padding: 5px;  
+   }
+
+   .section2-about {
+  margin-top: 20px; 
+  font-size: 50px; 
+}
+
+.aboutp {
+  text-align: left; 
+}
+
+ .section2-exper {
+    margin-bottom: 20px; 
+   }
+
+   .servp {
+  height: 120px; 
+  overflow: scroll;
+}
+
+.ephoto-p {
+  font-size: 30px; 
+}
+
+  }
 /************iphone 7 and 8 plus ************************/
 
 
@@ -81,11 +398,11 @@ and (orientation: portrait)
         }
 
         .aboutphoto {
-            border-radius: 50%; 
+           /* border-radius: 50%; 
             float: right;
             width:300px;
             height:300px;
-            margin-left: 180px; 
+            margin-left: 180px; */
             /* margin-right:15px; */
         }
 
@@ -93,13 +410,58 @@ and (orientation: portrait)
             font-size: .8em; 
         }
 
+        #section4 {
+ background-image: url("lauren-mancke-96705-unsplash.jpg");
+ margin-top: 50px; 
+
+ }
+
+ .form-submit {
+  color: #fff; 
+  border:none;
+ }
+
+ .foot1 {
+  font-size: 20px!important; 
+ }
+
+
     }
 
+    /* Landscape */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen 
+  and (min-device-width: 1366px) 
+  and (max-device-width: 1366px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+ .aboutphoto {
+      float: left!important; 
+      width: 200px; 
+      height: 200px; 
+      margin-right: 10px!important; 
+    }
+
+    .ephoto-p {
+      font-size: 40px; 
+    }
+
+    .vertical {
+      font-size: 25px; 
+    }
+
+    .form-submit {
+     background-color: #fff;  
+      border: none!important; 
+      opacity: .4; 
+      margin-bottom: 20px; 
+    }
+
+  }
+
 /* ***********Breakpoint From Phone To Desktops ***********************
-
 @media screen and (min-width: 769px){
-
-
 } */
 
 /*******************iMAC PRO LAPTOP *******************************/
@@ -109,7 +471,6 @@ and (orientation: portrait)
     /* Nav Bar */
 /*.navbar {
     padding: 25px 50px 0 50px;  
-
     opacity: 0.2; 
     background: white!important; 
     border-bottom: hidden; 
@@ -124,11 +485,24 @@ and (orientation: portrait)
 
 
 .navbar-brand  {
-    color: black!important; 
+    color: black; 
     font-size: 25px;
     font-weight: lighter!important;
 }
 
+.navbar.solid {
+  background-color: #000!important; 
+  opacity: .8!important; 
+
+}
+
+.nav-link.solid1 {
+  color: #fff!important; 
+}
+
+.navbar-brand.solid2 {
+  color: #fff!important; 
+}
 /*NAV*/
 
   .jumbotron {
@@ -136,11 +510,13 @@ and (orientation: portrait)
         /*background-image: url("http://i66.tinypic.com/2pr9v2f.jpg");*/
             
  
-    background-image: url("headpic.jpg"); 
+   /* background-image: url("jessy-smith-534048-unsplash.jpg"); */
+    background-size: 100%!important; 
+
     /* -webkit-filter: grayscale(65%);  Safari 6.0 - 9.0 
     filter: grayscale(65%);*/
 /*       background-color: #f4511e; */
-    height:1000px; 
+    height:900px; 
     background-repeat: no-repeat; 
    background-size: cover; 
 
@@ -189,7 +565,7 @@ and (orientation: portrait)
 
 
 .navbar li a, .navbar .navbar-brand {
-      color: #000 !important;
+      color: #000 ;
       font-weight: lighter;
   }
 /*  .navbar-nav li a:hover {
@@ -203,7 +579,8 @@ and (orientation: portrait)
 }
 
 .btn-a {
-  margin-top: 650px; 
+  margin-top: 590px; 
+  /*margin-top: 650px; */
    padding: 15px;
 }
 
@@ -237,6 +614,11 @@ and (orientation: portrait)
     padding-bottom: 0;
     margin-bottom: 0; 
     margin-top: 0;    */
+}
+
+.ab-row{
+  margin-left: 100px; 
+  margin-right: 100px; 
 }
 
 
@@ -289,7 +671,7 @@ and (orientation: portrait)
     color: white;    
 }
 
-	hr{
+  hr{
 border-top: 1px solid black;
 
 }
@@ -304,8 +686,14 @@ border-top: 1px solid black;
 
 .section2-about {
     margin: 0;
+     letter-spacing: 10px;  
     /*font-family: 'Tangerine', cursive;*/
     font-size: 40px;  
+}
+
+.servp {
+  height: 100px; 
+  overflow: scroll;
 }
 
 .aboutp {
@@ -319,9 +707,9 @@ border-top: 1px solid black;
 
 .aboutphoto {
  /*   border-radius: 50%; */
-    float: right;
-    width:300px;
-    height:300px;
+    float: left;
+    width:200px;
+    height:250px;
     margin-left: 180px; 
     /* margin-right:15px; */
 }
@@ -351,9 +739,10 @@ h6 {
     text-align: center; 
 }
 
-/* .ephoto {
-    margin-right: 55px; 
-} */
+ .ephoto { 
+   width: 100%;
+   height: auto;  
+ }
 
 
 .section2-exper {
@@ -561,7 +950,8 @@ body {
     }
     
     .section2-about {
-        font-size: 60px;  
+        font-size: 60px;
+
     }
     
     .aboutp {
