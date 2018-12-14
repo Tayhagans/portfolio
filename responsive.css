@@ -93,7 +93,7 @@ hr {
 
    .servp {
     height: 90px; 
-    overflow: scroll;
+    overflow-y: scroll;
    }
 
    .aboutp {
@@ -693,7 +693,10 @@ border-top: 1px solid black;
 
 .servp {
   height: 100px; 
-  overflow: scroll;
+
+ overflow-x: hidden;  
+  
+
 }
 
 .aboutp {
@@ -711,7 +714,7 @@ border-top: 1px solid black;
     width:200px;
     height:250px;
     margin-left: 180px; 
-    /* margin-right:15px; */
+     margin-right:10px; 
 }
 
 ul { 
@@ -984,6 +987,15 @@ body {
     .centered {
       top: 40%; 
     }
+
+    .servp {
+  height: auto; 
+
+ overflow-x: hidden; 
+ overflow-y: hidden;  
+  
+
+}
 
 
 .jumbotron {

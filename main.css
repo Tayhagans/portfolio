@@ -86,7 +86,7 @@ background-color: #fff;
 
 .navbar-nav a:hover {
    
-    color: #ff0080!important;  
+    font-size: 20px;   
 }
 
 
@@ -137,8 +137,12 @@ background-color: #fff;
 color: #fff; 
 margin-top: 15px; 
   
- 
-} 
+ }
+
+.btn-a:hover {
+  letter-spacing: 3px; 
+}
+
    
 .btn-c {
   opacity: 1; 
@@ -483,6 +487,10 @@ li a {
     background-color: transparent; 
     color: #000; 
     border: 1px solid #000; 
+}
+
+.form-submit:hover {
+  letter-spacing: 5px; 
 }
 
 .form-control, .form-group {
