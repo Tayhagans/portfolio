@@ -522,6 +522,7 @@ and (orientation: portrait)
     height:900px; 
     background-repeat: no-repeat; 
    background-size: cover; 
+   margin-top: 0; 
 
      /* color: #fff;*/
       padding: 100px 25px;
