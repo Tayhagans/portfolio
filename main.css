@@ -263,6 +263,10 @@ background-color: #fff;
      background-repeat: no-repeat;  */
 }
 
+.arrow {
+  display: none; 
+}
+
 .about-head {
    /*position: relative;
    top: -60%;
@@ -721,3 +725,4 @@ caption {
   padding: 10px; 
   background-color: #000;  
 }
+

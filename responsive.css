@@ -458,6 +458,11 @@ and (orientation: portrait)
       margin-bottom: 20px; 
     }
 
+/*.ab-row {
+  margin-left: 0!important; 
+  margin-right: 0!important; 
+}*/
+
   }
 
 /* ***********Breakpoint From Phone To Desktops ***********************
@@ -482,6 +487,46 @@ and (orientation: portrait)
     font-weight: bolder;
     font-size: 14px;  
 }*/
+
+/************SCROLL DOWN ARROW******************/
+
+@-webkit-keyframes downarrow {
+  0% { -webkit-transform: translateY(0); opacity: 0.4 }
+  100% { -webkit-transform: translateY(0.4em); opacity: 0.9 }
+}
+
+/*.container {
+  background-image: url('http://www.placekitten.com/g/1000/1000');
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  position:absolute;
+}*/
+.arrow {
+  border-color:transparent;
+  border-style:solid;
+  border-width:0 2em;
+  display:block;
+  height:0;
+  margin:16em auto;
+  opacity:0.4;
+  text-indent:-9999px;
+  transform-origin: 50% 50%;
+  width:0;
+}
+.up {
+  -webkit-animation: uparrow 0.6s infinite alternate ease-in-out;
+  border-bottom:2em solid #ff0080;
+}
+.down {
+  -webkit-animation: downarrow 0.6s infinite alternate ease-in-out;
+  border-top:2em solid #ff0080;
+}
+
+
+
+/***************************/
 
 .logo-main {
   margin-left: 100px; 
@@ -583,7 +628,8 @@ and (orientation: portrait)
 }
 
 .btn-a {
-  margin-top: 390px; 
+  display: none; 
+  margin-top: 0; 
   /*margin-top: 650px; */
    padding: 15px;
 }
@@ -1006,7 +1052,7 @@ body {
 .jumbotron {
 
             
- background-image: url("headerpic.jpg");
+ background-image: url("new.jpg");
     }
 
     .form-submit {
