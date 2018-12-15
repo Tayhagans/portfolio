@@ -483,6 +483,9 @@ and (orientation: portrait)
     font-size: 14px;  
 }*/
 
+.logo-main {
+  margin-left: 100px; 
+}
 
 .navbar-brand  {
     color: black; 
@@ -526,9 +529,9 @@ and (orientation: portrait)
   }
 
 .jumbotron h1 {
-  margin-top: 20px; 
+  margin-top: 160px; 
   
-  font-size:50px; 
+  font-size:70px; 
 }
 
 .jumbotron h3 {
@@ -559,7 +562,7 @@ and (orientation: portrait)
   }
 
    .navbar li a{
-    
+    font-size: 18px; 
     background-color: transparent;  
   }
 
@@ -579,7 +582,7 @@ and (orientation: portrait)
 }
 
 .btn-a {
-  margin-top: 590px; 
+  margin-top: 390px; 
   /*margin-top: 650px; */
    padding: 15px;
 }
@@ -603,6 +606,7 @@ and (orientation: portrait)
    top: -70%;
    left: 50%;
    transform: translate(-50%, -50%); */
+
    font-size: 30px;
   margin-top: 110px;  
 
