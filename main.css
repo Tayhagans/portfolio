@@ -589,6 +589,42 @@ img {
     padding-bottom: 5px; 
 }
 
+/********MONIALS************/
+
+.carousel-indicators {
+  display: none;
+}
+
+.monial-span {
+background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.carousel-inner p {
+font-style: italic;
+color: #fff; 
+font-weight: lighter;
+  margin-top: 10px;
+  font-size: smaller; 
+}
+
+.monial-span {
+
+  padding: 3px; 
+}
+
+
+.carousel-control-prev-icon {
+  display: none; 
+}
+
+.carousel-control-next-icon {
+  display: none; 
+}
+
+
 /* Section #3 */
 #section3 {
    
@@ -631,6 +667,10 @@ li a {
     /* opacity: 0.5;  */
 }
 
+.my-contact { 
+
+  color: #ff0080; 
+}
 /*.con-img {*/
  /* background-image: url("contact.jpg");*/
 /* background-image: url("lauren-mancke-96705-unsplash.jpg");
@@ -725,4 +765,6 @@ caption {
   padding: 10px; 
   background-color: #000;  
 }
+
+
 
