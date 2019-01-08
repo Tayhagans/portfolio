@@ -408,7 +408,7 @@ margin-top: 15px;
     margin-bottom: 0; 
     font-family: "Times New Roman" , cursive;
 
-     
+     font-size: 25px; 
   
 }
 
@@ -568,7 +568,8 @@ img {
     font-family: 'Times New Roman', cursive;
     margin-top: 25px; 
     padding-bottom: 15px; 
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
+    font-size: 25px; 
     
 }
 
@@ -584,7 +585,6 @@ img {
     display: block; 
     margin-left: auto; 
     margin-right: auto;
-
 }*/
 
 .servp {
@@ -768,6 +768,3 @@ caption {
   padding: 10px; 
   background-color: #000;  
 }
-
-
-

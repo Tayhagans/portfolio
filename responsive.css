@@ -57,7 +57,7 @@ hr {
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
     .jumbotron {
-      background-size: cover; 
+      background-size: cover!important; 
     }
 
     .jumbotron h1 {
@@ -192,7 +192,7 @@ hr {
   and (orientation: landscape) { 
 
 .jumbotron {
-      background-size: contain!important; 
+      background-size: cover; 
     }
 
     .jumbotron h1 {
@@ -397,6 +397,31 @@ and (orientation: portrait)
             margin-top: 155px; 
         }
 
+        .jumbotron {
+          height: 600px; 
+        }
+
+        .jumbotron h1 {
+          font-size: 54px;
+          margin-top: 300px;  
+        }
+
+        .ephoto-p {
+          font-size: 19px; 
+        }
+
+        .section2-exper {
+          font-size: 20px; 
+        }
+
+        .section2-services {
+          font-size: 20px; 
+        }
+
+        .vertical {
+          font-size: 15px; 
+        }
+
         .aboutphoto {
            /* border-radius: 50%; 
             float: right;
@@ -443,8 +468,17 @@ and (orientation: portrait)
       margin-right: 10px!important; 
     }
 
+    .ab-row {
+      margin-left: 150px!important; 
+      margin-right: 150px!important; 
+    }
+
+    .arrow {
+      margin: 20em auto!important; 
+    }
+
     .ephoto-p {
-      font-size: 40px; 
+      font-size: 26px; 
     }
 
     .vertical {
