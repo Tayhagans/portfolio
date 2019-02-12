@@ -499,9 +499,24 @@ and (orientation: portrait)
 
   }
 
-/* ***********Breakpoint From Phone To Desktops ***********************
-@media screen and (min-width: 769px){
-} */
+/* ***********Breakpoint From Phone To Desktops ***********************/
+
+  @media screen and (min-width: 500px){
+
+  .jumbotron {
+    background-size: cover;
+     
+  }
+
+  .aboutphoto {
+    float: left; 
+  }
+
+   #section4 {
+ background-image: url("lauren-mancke-96705-unsplash.jpg");
+
+}
+} 
 
 /*******************iMAC PRO LAPTOP *******************************/
 
@@ -914,6 +929,7 @@ h6 {
 .monial-span {
 
   padding: 70px; 
+  padding-bottom: 0; 
 }
 
 .carousel-inner p {
