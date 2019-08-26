@@ -117,3 +117,35 @@ $(document).ready(function() {
         });
 });
 
+jQuery(document).ready(function($) {
+      $('.rio-promos').slick({
+        dots: false,
+        infinite: true,
+        speed: 500,
+        // centerMode:true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 7000,
+        arrows: true,
+        responsive: [
+
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            // slidesToScroll: 2
+          }
+        },
+        {
+           breakpoint: 600,
+           settings: {
+              arrows: false,
+              slidesToShow: 1,
+              slidesToScroll: 1
+           }
+        }]
+    });
+});
+
