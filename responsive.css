@@ -1434,7 +1434,7 @@ body {
     }
     
     .section2-about {
-        font-size: 60px;
+        font-size: 47px;
         margin-bottom: 25px; 
         margin-top: 35px; 
 
@@ -1458,8 +1458,8 @@ body {
     }
 
     .ab-row {
-      margin-left: 400px; 
-      margin-right: 400px; 
+      margin-left: 196px!important; 
+      margin-right: 196px!important; 
     }
 
     .e-photo {
@@ -1491,7 +1491,7 @@ body {
     }
 
     .arrow {
-       margin:25em auto;
+       margin:19em auto;
     }
 
     .form-submit {
