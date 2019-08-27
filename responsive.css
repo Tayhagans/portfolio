@@ -782,8 +782,13 @@ and (orientation: portrait)
 @media screen and (min-width: 1025px){
 
   /**********new code**************/
+
+  .row.servi-p.p-height1 {
+    height: 492px;
+}
+
 .fa {
-    font-size: 24px!important;
+    font-size: 38px!important;
     color: #000;
 }
 
