@@ -688,6 +688,7 @@ and (orientation: portrait)
 
   @media screen and (max-width: 768px){
 
+
     .sm-div {
       max-width: 100%;
       flex: initial; 
@@ -709,6 +710,18 @@ and (orientation: portrait)
 }
 
 @media screen and (min-width: 769px) {
+
+      .about-head-sub {
+    letter-spacing: 5px; 
+}
+
+
+  .header-content h1 {
+
+    letter-spacing: 10px;
+
+
+}
 
 
   .arrow {
@@ -1912,7 +1925,7 @@ border-top: 1px solid black;
 }
 
 .section2-about {
-    margin: 0;
+    margin: 17px; 
      letter-spacing: 10px;  
     /*font-family: 'Tangerine', cursive;*/
     font-size: 40px;  
