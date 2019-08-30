@@ -326,7 +326,7 @@ background-color: #fff;
 }
 
 .packages {
-    font-size: 23px;
+    font-size: 29px;
     /*letter-spacing: 5px;*/
     text-transform: uppercase;
  
@@ -479,6 +479,12 @@ background-color: #000;
     border-radius: 50%;
 
 }
+
+
+.services-div .fa:hover {
+  opacity: .8; 
+}
+
 ul {
     text-align: center; 
     display: block; 

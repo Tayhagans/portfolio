@@ -700,7 +700,7 @@ li a {
 }
 
 .my-contact { 
-
+margin-top: 24px; 
   color: #ff0080; 
   text-transform: uppercase;
 }

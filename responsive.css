@@ -621,9 +621,12 @@ and (orientation: portrait)
   and (orientation: landscape) 
   and (-webkit-min-device-pixel-ratio: 2) {
 
+.process-div {
+    height: 328px!important;
+}
 
 .services-div {
-    height: 314px;
+    height: 314px!important;
   }
 
   .servi-row h3 {
@@ -705,7 +708,15 @@ and (orientation: portrait)
    
 }
 
+.process-div .fa {
+background-color: #000;
+    color: #fff!important;
+    width: 95px;
+    height: 95px;
+    padding: 30px;
+    border-radius: 50%;
 
+}
   
 }
 
@@ -760,7 +771,7 @@ and (orientation: portrait)
     padding: 8px;
     border-top: 1px solid #000;
     border-bottom: 1px solid #000;
-    height: 299px; 
+    height: 360px; 
     /* color: #fff; */
     margin-bottom: 80px;
     /* opacity: .5; */
@@ -770,8 +781,12 @@ and (orientation: portrait)
     height: 446px;
 }
 
+.p-height1 {
+    height: 525px;
+}
+
 #section-process {
-    height: 548px;
+    height: 641px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
@@ -836,7 +851,19 @@ and (orientation: portrait)
 } 
 
 .process-div {
-    height: 384px;
+    height: 488px;
+}
+
+}
+
+@media screen and (min-width: 1024px){
+
+  #section-process {
+    height: 800px;
+  }
+
+  .process-div {
+    height: initial;
 }
 
 }
@@ -881,7 +908,7 @@ and (orientation: portrait)
 }
 
 .services-div {
-    height: 340px;
+    height: 374px;
    
 }
 
@@ -911,7 +938,7 @@ span.hi {
 }
 
 #section-process {
-  height: 494px; 
+  height: 568px; 
   background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
@@ -929,7 +956,7 @@ span.hi {
     margin-left: 30px;
     margin-right: 30px;
     opacity: .8;
-    height: 304px; 
+    height: 400px; 
   }
 
 /*  .monial-row {
