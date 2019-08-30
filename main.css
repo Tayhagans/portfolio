@@ -470,8 +470,15 @@ margin-top: 15px;
 .service-sec {
   padding-left: 60px; 
 }
+.fa {
+background-color: #000;
+    color: #fff!important;
+    width: 95px;
+    height: 95px;
+    padding: 30px;
+    border-radius: 50%;
 
-
+}
 ul {
     text-align: center; 
     display: block; 
