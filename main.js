@@ -1,11 +1,11 @@
-// $(document).ready(function() {
+$(document).ready(function() {
  
-//     setTimeout(function(){
-//         $('.loader_bg').fadeToggle();
+    setTimeout(function(){
+        $('.loader_bg').fadeToggle();
         
-//     }, 3000);
+    }, 3000);
  
-// });
+});
   // Initialize Firebase
   var config = {
     apiKey: "AIzaSyBFqN6EdLa8TuLh1HfmFb4U05z8E6NUJ_M",
