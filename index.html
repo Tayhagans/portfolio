@@ -54,7 +54,7 @@
 
 <!--   <img src="mac.jpg"> -->
      
-         <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" controls="true">
+         <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
            <source src="frontvid.mp4" type="video/mp4">
           <!--   <source src="front-vidwm.webm" type="video/webm">
                <source src="video/frontvid.ogg" type="video/ogg"> -->
@@ -512,5 +512,12 @@ I highly recommend Modernly Designed for anyone thinking about creating a websit
 
 <script src="https://www.gstatic.com/firebasejs/4.9.1/firebase.js"></script>
 <script src="main.js"></script>
+<!-- START: Mobile Autoplay Video -->
+<script>
+var mobilevideo = document.getElementsByTagName("video")[0];
+mobilevideo.setAttribute("playsinline", "");
+mobilevideo.setAttribute("muted", "");
+</script>
+<!-- END: Mobile Autoplay Video -->
 </body>
 </html>
